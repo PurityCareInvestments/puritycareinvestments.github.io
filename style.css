@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: url("./images/pexels-safari-consoler-3290243-11834936.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+/*.image {
+    width: 100vw;
+    height: 100%;
+    background: url("./images/pexels-safari-consoler-3290243-11834936.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -100;
+}*/
+/*.image:before {
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgreen;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0.1;
+}*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 10vh;
+}
+nav {
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: /*#fff*/;
+    position: absolute;
+    top: 0;
+}
+h1 {
+    color: #202020;
+    font-family: Arial;
+}
+nav span {
+    color: #fff;
+    font-family: Arial;
+    display: grid;
+    grid-auto-flow: column;
+}
+nav span i {
+    color: #202020;
+    display: none;
+}
+p {
+    color: #fff;
+    font-family: Arial;
+    font-size: 31.36px;
+    font-weight: bold;
+}
+footer {
+    font-family: Arial;
+}
+.description {
+    color: #fff;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 16px;
+    width: 80vw;
+}
+button {
+    border:none;
+}
+.more-btn {
+    width: 50vw;
+    height: 50px;
+    background: none;
+    border: 2px solid orangered;
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: normal;
+    border-radius: 10px;
+}
+#donate-btn {
+    width: 50vw;
+    height: 50px;
+    background: rgb(255, 122, 73);
+    border: none;
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: normal;
+    border-radius: 10px;
+}
+
+.text-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+}
+.payment-methods {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 5vh;  
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+}
+.circle i {
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+
+}
